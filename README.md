@@ -19,7 +19,7 @@ to ensure that robot is already installed, run the command
 
 ### run the automation
 
-- download the front_end.robot file
+- download the `front_end.robot` file
 - to run the automation, go to the directory where you downloaded the file, open git bash or any command prompt 
 - run the command below : 
 

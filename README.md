@@ -10,6 +10,7 @@ The recommended installation method is using pip: Ensure that you have `python` 
 ### Install Requests and Selenium Library 
 
 ```pip install robotframework-selenium2library==1.8.0```
+
 ```pip install robotframework-requests```
 
 to ensure that robot is already installed, run the command 

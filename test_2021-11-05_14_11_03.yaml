@@ -1,0 +1,850 @@
+id: 0d4ac1d1b3d41d6da6501a
+created: 2021-11-05T13:06:45.930Z
+projectId: v5tyhmijgU-Ze-riWxDo2w
+projectName: Frontend Automation
+owner: cachelle franz Jalagat
+protocol: 1
+tests:
+  - id: c62f07a733ebb8a7c3a7d6
+    name: test
+    description: ""
+    platform: Android
+    type: Mobile
+    driverType: Appium_Android
+    version: "0.1"
+    creationDate: 2021-11-05T13:06:45.930Z
+    modificationDate: 2021-11-05T14:11:03.661Z
+    settings:
+      appId: ktbUg5Sl50mD8OrJhMhlew
+      automationAssistant: true
+      stepSleepTime: 500
+      stepTimeout: 15000
+      stepSleepTiming: Before
+      stepFailureBehaviorType: Abort
+      stepTakeScreenshotConditionType: Failure
+    application:
+      id: ktbUg5Sl50mD8OrJhMhlew
+      name: front end automation
+      platform: Android
+      hash: 1b0b21d02af0ab7776c4584fd49a23a8
+    steps:
+      - id: 075b5dee156965a37eed8e
+        comments: Clear application data and restart (Auto-generated)
+        enabled: true
+        invertResult: false
+        order: 1
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: "10000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+      - id: c3b7e8cd58e720101ac8db
+        comments: ""
+        enabled: true
+        order: 2
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: "100000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 1175a226365ef8509364e9
+      - id: e6c2cc49b42d818c59d0ca
+        comments: ""
+        enabled: true
+        order: 3
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: 500
+          timeout: "20000"
+          sleepTiming: Before
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 5110e937568420f194c17f
+      - id: b5117c326c0814861a2cd5
+        comments: ""
+        enabled: true
+        order: 4
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: "-1"
+          timeout: "20000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 05ca5dd036670ed49a27cb
+      - id: 29240b77d90ea143b58f0c
+        comments: ""
+        enabled: true
+        order: 5
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: "-1"
+          timeout: "20000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 4259c068c3485b3651bef1
+      - id: 29861e5dd87c892c8f242e
+        comments: ""
+        enabled: true
+        order: 6
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: "10000"
+          timeout: "10000"
+          sleepTiming: Before
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 68756a0960bb937a67a326
+      - id: fd8323c2822b3d652e502a
+        comments: ""
+        enabled: true
+        order: 7
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: "20000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 6fc0ae08d19293c7cd43a0
+      - id: bafaecdb0fd47408034587
+        comments: ""
+        enabled: true
+        invertResult: false
+        order: 8
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: "10000"
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - name: keys
+            value: juandelacruz
+            direction: Input
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 6fc0ae08d19293c7cd43a0
+      - id: defc0ffd84d1378b409b1c
+        comments: ""
+        enabled: true
+        invertResult: false
+        order: 9
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - name: keys
+            value: juan.delacruz@email.com
+            direction: Input
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: cf6ad387bfbfb8e79fb3c1
+      - id: 936511a77101d4cbbb846e
+        comments: ""
+        enabled: true
+        invertResult: false
+        order: 10
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - name: keys
+            value: password123
+            direction: Input
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 8eead895c7434e1287a2bf
+      - id: 11c6afb6aacb1df01a3207
+        comments: ""
+        enabled: true
+        invertResult: false
+        order: 11
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 0083fd9489812065434fe5
+      - id: 67e9cc30f1cfd13fae3c6e
+        comments: ""
+        enabled: true
+        invertResult: false
+        order: 12
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - name: keys
+            value: "Juan Dela Cruz "
+            direction: Input
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: a75ce62f7656d396099307
+      - id: 8f6e1eba39147c2e2d37e1
+        comments: ""
+        enabled: true
+        order: 13
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 05d49852-244d-47f9-be97-5217c86f6a1d
+        parameterMaps:
+          - direction: Input
+            name: x
+            value: "339"
+          - direction: Input
+            name: y
+            value: "2471"
+          - direction: Input
+            name: fingers
+            value: "1"
+          - direction: Input
+            name: duration
+            value: "100"
+        conditions: []
+        validations: []
+        contexts: []
+      - id: 01440aa529f236fc2edc28
+        comments: ""
+        enabled: true
+        order: 14
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 3180d24b05677033568d1c
+      - id: c40ff62b83aec69ac7e2bb
+        comments: ""
+        enabled: true
+        order: 15
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 0c48c816db07a9f30a922f
+      - id: 1cfa4c11ba17d7ddd7c266
+        comments: ""
+        enabled: true
+        order: 16
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 8e47bb945c0e062b4853f1
+      - id: c7025ae19d2c8d8d73c49f
+        comments: ""
+        enabled: true
+        order: 17
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 9f115de5382c52e18ff8e4
+      - id: 805b6d5c99eee689969d61
+        comments: ""
+        enabled: true
+        order: 18
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+        parameterMaps:
+          - direction: Input
+            name: text
+            value: "Juan Dela Cruz "
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 33ed15bade1afb3cdf71f4
+      - id: d6a581a1ed802d0d498b38
+        comments: ""
+        enabled: true
+        order: 19
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 6e8428fbbb8716aabd97de
+    parameters:
+      - name: name
+        description: ""
+        value: juan dela cruz
+        type: Input
+    tags: []
+auxTests: []
+elements:
+  - id: 6e8428fbbb8716aabd97de
+    name: Register User
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/buttonRegisterUser
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@text = 'Register User']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Button
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.TableLayout[1]/android.widget.TableRow[8]/android.widget.Button[1]
+        priority: 3
+  - id: 33ed15bade1afb3cdf71f4
+    name: Juan Dela Cruz1
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/label_name_data
+        priority: 0
+      - name: XPATH
+        value: //android.widget.TextView[@text = 'Juan Dela Cruz ']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.TableRow[2]/android.widget.TextView[2]
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.TableLayout[1]/android.widget.TableRow[2]/android.widget.TextView[2]
+        priority: 3
+  - id: 9f115de5382c52e18ff8e4
+    name: Register User (verify)
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/btnRegisterUser
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@text = 'Register User (verify)']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Button
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.Button[1]
+        priority: 3
+  - id: 8e47bb945c0e062b4853f1
+    name: I accept adds
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MDg
+      name: android.widget.CheckBox
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/input_adds
+        priority: 0
+      - name: XPATH
+        value: //android.widget.CheckBox[@text = 'I accept adds']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.CheckBox
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.CheckBox[1]
+        priority: 3
+  - id: 0c48c816db07a9f30a922f
+    name: Python
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MDk
+      name: android.widget.CheckedTextView
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.CheckedTextView[@text = 'Python']
+        priority: 0
+      - name: XPATH
+        value: //android.widget.CheckedTextView[4]
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.CheckedTextView[4]
+        priority: 2
+  - id: 3180d24b05677033568d1c
+    name: Ruby
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: ID
+        value: android:id/text1
+        priority: 0
+      - name: XPATH
+        value: //android.widget.TextView[@text = 'Ruby']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Spinner/android.widget.TextView
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.Spinner[1]/android.widget.TextView[1]
+        priority: 3
+  - id: b03eafdf732a7cdaa10e14
+    name: Juan Dela Cruz
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputName
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[@text = 'Juan Dela Cruz ']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.EditText[4]
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[4]
+        priority: 3
+  - id: a75ce62f7656d396099307
+    name: io.selendroid.testapp:id/inputName
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputName
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[4]
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[4]
+        priority: 2
+  - id: 0083fd9489812065434fe5
+    name: Mr. Burns
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputName
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[@text = 'Mr. Burns']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.EditText[4]
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[4]
+        priority: 3
+  - id: 8eead895c7434e1287a2bf
+    name: io.selendroid.testapp:id/inputPassword
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputPassword
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[3]
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[3]
+        priority: 2
+  - id: cf6ad387bfbfb8e79fb3c1
+    name: email of the customer
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputEmail
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[@content-desc = 'email of the customer']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.EditText[2]
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[2]
+        priority: 3
+  - id: 1175a226365ef8509364e9
+    name: OK
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: android:id/button1
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@text = 'OK']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Button
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.Button[1]
+        priority: 3
+  - id: 0b0ad54e2376f80c65c3ba
+    name: ANDROID.WIDGET.FRAMELAYOUT
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTY
+      name: android.widget.FrameLayout
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.FrameLayout
+        priority: 0
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]
+        priority: 1
+  - id: 6fc0ae08d19293c7cd43a0
+    name: io.selendroid.testapp:id/inputUsername
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3MTM
+      name: android.widget.EditText
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/inputUsername
+        priority: 0
+      - name: XPATH
+        value: //android.widget.EditText[1]
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+        priority: 2
+  - id: bf8289d17701be8fdb2420
+    name: ANDROID.WIDGET.SCROLLVIEW
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3Mzk
+      name: android.widget.ScrollView
+      source: System
+    locators:
+      - name: XPATH
+        value: //android.widget.ScrollView
+        priority: 0
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]
+        priority: 1
+  - id: 68756a0960bb937a67a326
+    name: android:id/scrollView
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3Mzk
+      name: android.widget.ScrollView
+      source: System
+    locators:
+      - name: ID
+        value: android:id/scrollView
+        priority: 0
+      - name: XPATH
+        value: //android.widget.ScrollView
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]
+        priority: 2
+  - id: 4259c068c3485b3651bef1
+    name: waitingButtonTestCD
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/waitingButtonTest
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@content-desc = 'waitingButtonTestCD']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Button[@text = 'Show Progress Bar for a while']
+        priority: 2
+      - name: XPATH
+        value: //android.widget.LinearLayout[3]/android.widget.Button
+        priority: 3
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.Button[1]
+        priority: 4
+  - id: 05ca5dd036670ed49a27cb
+    name: Text is sometimes displayed
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/visibleTextView
+        priority: 0
+      - name: XPATH
+        value: //android.widget.TextView[@text = 'Text is sometimes displayed']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.LinearLayout[4]/android.widget.TextView
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[1]
+        priority: 3
+  - id: 5110e937568420f194c17f
+    name: visibleButtonTestCD
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/visibleButtonTest
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@content-desc = 'visibleButtonTestCD']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.Button[@text = 'Display text view']
+        priority: 2
+      - name: XPATH
+        value: //android.widget.LinearLayout[4]/android.widget.Button
+        priority: 3
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.Button[1]
+        priority: 4
+  - id: 56fc3bb943f640f2c6feb1
+    name: Should only be found once
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk3NTE
+      name: android.widget.TextView
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/focusedText
+        priority: 0
+      - name: XPATH
+        value: //android.widget.TextView[@text = 'Should only be found once']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.LinearLayout[6]/android.widget.TextView
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[6]/android.widget.TextView[1]
+        priority: 3
+  - id: fe41e8b8f376803c9fb437
+    name: Display and focus on layout
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk4NDU
+      name: android.widget.Button
+      source: System
+    locators:
+      - name: ID
+        value: io.selendroid.testapp:id/topLevelElementTest
+        priority: 0
+      - name: XPATH
+        value: //android.widget.Button[@text = 'Display and focus on layout']
+        priority: 1
+      - name: XPATH
+        value: //android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button
+        priority: 2
+      - name: XPATH
+        value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.Button[1]
+        priority: 3
+projectParameters: []
+addons: []

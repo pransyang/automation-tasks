@@ -15,7 +15,7 @@ The recommended installation method is using pip: Ensure that you have `python` 
 
 to ensure that robot is already installed, run the command 
 ``` robot --version```
-- Robot Framework >version>0.1 (Python 3.8.2 on win32)
+- Robot Framework <version>0.1 (Python 3.8.2 on win32)
 
 
 ### run the automation

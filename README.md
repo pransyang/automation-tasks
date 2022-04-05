@@ -1,4 +1,4 @@
-# kumu-automation-tasks
+# automation-tasks
 
 ###  Robot Framework Installation 
 
